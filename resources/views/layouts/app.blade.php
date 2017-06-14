@@ -8,10 +8,12 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('RullySurya', 'RullySurya') }}</title>
 
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
+    <link href="{{asset('/css/font-awesome.min.css')}}" rel="stylesheet">
+        <link href="{{asset('/css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- Scripts -->
     <script>
@@ -36,7 +38,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                        {{ config('VANSRULIND', 'VANSRULIND') }}
                     </a>
                 </div>
 
@@ -82,7 +84,9 @@
     </div>
 
     <!-- Scripts -->
-    <script src="/js/app.js"></script>
+    <script src="{{asset('/js/app.js')}}"></script>
+    <script src="{{asset('/js/bootstrap.min.js')}}"></script>
+
     @include('layouts.menu')
     @include('layouts.profile')
 </body>

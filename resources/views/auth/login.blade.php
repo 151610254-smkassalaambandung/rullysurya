@@ -31,7 +31,7 @@
                 <div class="col-md-6 col-md-offset-4">
                     <div class="checkbox">
                         <label>
-                            {!! Form::checkbox('remember')!!} ingat saya
+                            {!! Form::checkbox('remember')!!} ingat abdi
                         </label>
                     </div>
                 </div>
@@ -40,10 +40,10 @@
             <div class="form-group">
                 <div class="col-md-6 col-md-offset-4">
                     <button type="submit" class="btn btn-primary">
-                        <i class="fa fa-btn fa-sign-in"></i> Abus
+                        <i class="fa fa-btn fa-sign-in"></i> Lebet
                     </button>
 
-                    <a class="btn btn-link" href="{{ url('/password/reset')}}">Poho password</a>
+                    <a class="btn btn-link" href="{{ url('/password/reset')}}">Hilap sandi</a>
                 </div>
             </div>
                 </div>
