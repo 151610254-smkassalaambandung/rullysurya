@@ -22,7 +22,8 @@
         ]); ?>
     </script>
 </head>
-<body>
+<body style="background: url({{asset('p.jpg')}}); background-repeat: no-repeat;
+        background-size:cover; background-attachment:fixed;">
     <div id="app">
         <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
